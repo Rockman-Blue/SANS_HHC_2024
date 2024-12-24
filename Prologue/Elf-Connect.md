@@ -8,7 +8,7 @@ After clicking on the terminal, I am presented with this interface. The goal of 
 
 Right away, I notice some names of Santa's reindeer names. The reindeer names are Dasher, Dancer, Prancer, Vixen, Comet, Cupid, Dunder, Blixem, and Rudolph. One hint I have seen repeated in the Discord server for this event is to look at the source code for the challenges for hints. This is done by using the inspect element feature in my browser's development console. I do that and find the below code.
 
-```
+```javascript
         const wordSets = {
             1: ["Tinsel", "Sleigh", "Belafonte", "Bag", "Comet", "Garland", "Jingle Bells", "Mittens", "Vixen", "Gifts", "Star", "Crosby", "White Christmas", "Prancer", "Lights", "Blitzen"],
             2: ["Nmap", "burp", "Frida", "OWASP Zap", "Metasploit", "netcat", "Cycript", "Nikto", "Cobalt Strike", "wfuzz", "Wireshark", "AppMon", "apktool", "HAVOC", "Nessus", "Empire"],
