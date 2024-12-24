@@ -10,7 +10,8 @@ By clicking on the curling setup, I access and interact with the challenge via a
 
 ![Screenshot 2024-12-24 101527](https://github.com/user-attachments/assets/be8dd99e-2cfd-41de-a21a-0f707c0362d0)
 
-I solve the first question and move onto the next one. 
+Below are the questions and solutions:
 
-![Screenshot 2024-12-24 101752](https://github.com/user-attachments/assets/ba36e85b-415b-4a91-bb82-7aa17ea9253e)
+1. Unlike the defined standards of a curling sheet, embedded devices often have web servers on non-standard ports. Use curl to retrieve the web page on host "curlingfun" port 8080.
+```curl http://curlingfun:8080```
 
