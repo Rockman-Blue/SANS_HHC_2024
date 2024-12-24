@@ -77,6 +77,6 @@ I go the my browser's developer tools, and modify the score value.
 
 ![Screenshot 2024-12-24 082013](https://github.com/user-attachments/assets/bdf1b094-dfd9-4ca3-b64a-34c295a85cd9)
 
-From here, I complete the one row and my score goes above 50000, giving me the gold badge for this challenge. 
+From here, I complete the one row and my score goes above 50000, giving me the gold badge for this challenge. Now it is time to talk to Poinsettia and move onto the next challenge. 
 
 ![Screenshot 2024-12-24 082134](https://github.com/user-attachments/assets/fde73201-d7b9-4a92-a5c3-6f1dd354dea7)
