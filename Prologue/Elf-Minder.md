@@ -12,3 +12,8 @@ The game's goal is to guide the elf from the green flag to a checkered flag, but
 ![Screenshot 2024-12-24 083302](https://github.com/user-attachments/assets/351906d3-6cdf-4379-a8a2-350f7c3c6c04)
 
 For brevity's sake I won't show each level solution, but proof that I completed each level is below. One tip that was helpful was noticing that if the elf hits an obstacle, like a rock, the elf will just bounce back and move in the opposite direction of the path that led them to the obstacle. Also, rotating the path while the elf was moving is also a good practice for some of the levels. 
+
+After completing all of the levels, I get awarded the silver trophy for this challenge. To get the gold trophy for this challenge, I have to complete the final level in the game, "A Real Pickle".
+
+![Screenshot 2024-12-24 092603](https://github.com/user-attachments/assets/f648f06d-0f10-4cb0-ae1e-006643029460)
+
