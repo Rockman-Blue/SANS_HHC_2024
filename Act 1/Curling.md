@@ -13,5 +13,8 @@ By clicking on the curling setup, I access and interact with the challenge via a
 Below are the questions and solutions:
 
 1. Unlike the defined standards of a curling sheet, embedded devices often have web servers on non-standard ports. Use curl to retrieve the web page on host "curlingfun" port 8080.
+
 ```curl http://curlingfun:8080```
+
+2. Embedded devices often use self-signed certificates, where your browser will not trust the certificate presented.  Use curl to retrieve the TLS-protected web page at https://curlingfun:9090/
 
