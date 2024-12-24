@@ -23,6 +23,10 @@ Right away, I notice some names of Santa's reindeer names. The reindeer names ar
             [1, 3, 7, 9],   // Set 2
             [2, 6, 11, 12], // Set 3
             [4, 8, 13, 15]  // Set 4
-
-
 ```
+
+Going by the source code above, below are the challenge solutions for each set. I remember that the index numbering starts at 0, not 1. 
+* Set 1 - Tinsel, Garland, Star, Lights
+* Set 2 - burp, OWASP Zap, Nikto, wfuzz
+* Set 3 - Symmetric, Asymmetric, hash, hybrid
+* Set 4 - HTTP, FTP, SMTP, DNS
