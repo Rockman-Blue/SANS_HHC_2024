@@ -25,8 +25,51 @@ Right away, I notice some names of Santa's reindeer names. The reindeer names ar
             [4, 8, 13, 15]  // Set 4
 ```
 
-Going by the source code above, below are the challenge solutions for each set. I remember that the index numbering starts at 0, not 1. 
-* Set 1 - Tinsel, Garland, Star, Lights
-* Set 2 - burp, OWASP Zap, Nikto, wfuzz
-* Set 3 - Symmetric, Asymmetric, hash, hybrid
-* Set 4 - HTTP, FTP, SMTP, DNS
+Going by the source code above, correctSets defines the index positions of the right combinations for each wordset. Below are the challenge solutions for each set. I apply the index patterns for sets 1-4 for each wordSet item and remember that the index numbering starts at 0, not 1. After creating the list of solutions for each set, I click them, complete the round and move onto the next one. 
+
+Round 1 Solutions:
+* Tinsel, Garland, Star, Lights
+* Sleigh, Bag, Mittens, Gifts
+* Belafonte, Jingle Bells, Crosby, White Christmas
+* Comet, Vixen, Prancer, Blitzen
+
+![Screenshot 2024-12-24 080748](https://github.com/user-attachments/assets/1d0e58c3-2af7-4aa3-9183-926e8c0a1176)
+
+With Round 1 complete, I move onto Round 2. 
+
+Round 2 Solutions:
+* Nmap, netcat, Wireshark, Nessus
+* burp, OWASP Zap, Nikto, wfuzz
+* Frida, Cycript, AppMon, apktool
+* Metasploit, Cobalt Strike, HAVOC, Empire
+
+![Screenshot 2024-12-24 080936](https://github.com/user-attachments/assets/35279df9-99ab-4f40-b278-875f42623cbf)
+
+With Round 2 complete, I move onto Round 3. 
+
+Round 3 Solutions:
+* AES, RSA, Blowfish, 3DES
+* WEP, WPA2, TKIP, LEAP
+* Symmetric, Asymmetric, hash, hybrid
+* Caesar, One-time Pad, Ottendorf, Scytale
+
+![Screenshot 2024-12-24 081252](https://github.com/user-attachments/assets/0a5f4d86-37fc-462b-b136-65f5df878235)
+
+With Round 3 complete, I move onto Round 4, the final one. 
+
+Round 4 Solutions:
+* IGMP, IPX, IP, ICMP
+* TLS, SSL, IPSec, SSH
+* Ethernet, PPP, IEEE 802.11, ARP
+* HTTP, FTP, SMTP, DNS
+
+![Screenshot 2024-12-24 081409](https://github.com/user-attachments/assets/372d78f7-204a-4117-8a26-9e75cb885995)
+
+After completing Round 4, I get the silver badge for this challenge. I am curious about the gold badge for this challenge, so I look at the requirements. It mentions a high score of 50,000 points. Seeing this, I think back to how I looked at the source code earlier in this challenge and how that helped me. So I look at the source code again. 
+
+'''
+let score = parseInt(sessionStorage.getItem('score') || '0'); // Initialize score
+        let scoreText;  // Text object for score display
+        let highScore = 50000;
+'''
+
