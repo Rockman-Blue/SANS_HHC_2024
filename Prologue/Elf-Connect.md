@@ -67,9 +67,9 @@ Round 4 Solutions:
 
 After completing Round 4, I get the silver badge for this challenge. I am curious about the gold badge for this challenge, so I look at the requirements. It mentions a high score of 50,000 points. Seeing this, I think back to how I looked at the source code earlier in this challenge and how that helped me. So I look at the source code again. 
 
-'''
+```javascript
 let score = parseInt(sessionStorage.getItem('score') || '0'); // Initialize score
         let scoreText;  // Text object for score display
         let highScore = 50000;
-'''
+```
 
