@@ -19,3 +19,12 @@ Below are the questions and solutions:
 
 2. Embedded devices often use self-signed certificates, where your browser will not trust the certificate presented.  Use curl to retrieve the TLS-protected web page at https://curlingfun:9090/
 
+```curl -k https://curlingfun:9090/```
+* This second question was a bit harder. Initially, I tried the command above without the -k argument. When I ran that, I got the error below:
+'''curl: (60) SSL certificate problem: self-signed certificate'''
+* In the same error message, there was a link to a cURL documentation page at https://curl.se/docs/sslcerts.html. I read the documentation and saw an option to skip certificate verification with the -k/--insecure flag. I then used that argument to find the right command.
+
+3. Working with APIs and embedded devices often requires making HTTP POST requests. Use curl to send a request to https://curlingfun:9090/ with the parameter "skip" set to the value "alabaster", declaring Alabaster as the team captain.
+
+``` ```
+* 
