@@ -27,7 +27,7 @@ Below are the questions and solutions:
 3. Working with APIs and embedded devices often requires making HTTP POST requests. Use curl to send a request to https://curlingfun:9090/ with the parameter "skip" set to the value "alabaster", declaring Alabaster as the team captain.
 
 ```curl --insecure --data "skip=alabaster" https://curlingfun:9090/```
-* The --data option allows you to send the specified data in a HTTP POST request. The generic format is --data "name:value". Like the previous question, I use the -k/--insecure option since the certificate is self signed (URL has https not http, which wouldn't need -k/--insecure due to the lack of a cert).
+* The --data option allows you to send the specified data in a HTTP POST request. The generic format is --data "name=value". Like the previous question, I use the -k/--insecure option since the certificate is self signed (URL has https not http, which wouldn't need -k/--insecure due to the lack of a cert).
 
  4. Working with APIs and embedded devices often requires maintaining session state by passing a cookie.  Use curl to send a request to https://curlingfun:9090/ with a cookie called "end" with the value "3", indicating we're on the third end of the curling match.  
 
@@ -51,4 +51,38 @@ Below are the questions and solutions:
 
 ![Screenshot 2024-12-25 125344](https://github.com/user-attachments/assets/6ae0013e-5fc6-4b76-8a9b-d4500782bfac)
 
-That's the last question to get the silver trophy for this challenge. 
+That's the last question to get the silver trophy for this challenge. Let's see what's required for the gold trophy in this challenge. 
+
+![Screenshot 2024-12-25 125655](https://github.com/user-attachments/assets/679e9be1-0db9-41f0-9a86-4500caf438f9)
+
+The trick here is to craft one command that fits all of those requirements/conditions. To do this, I must combine some of the arguments I learned how to use in the previous questions for the silver trophy into one command. 
+
+First, I know I need to use the -k/--insecure option, since I'm making a request to the same HTTPS page that uses a self-signed request. This was covered in question 2.
+
+Next, I notice that since it's an HTTP post request, this will require the --data argument in the format --data "name=value". The parameter is "skip" and the value is "bow", so the argument will look like --data "skip=bow". This concept was covered in question 3 above. 
+
+Then, since the requirement mentions using a cookie, I know I need to use the --cookie option. The generic format is --cookie "Name=Value", or in this case --cookie "end=10". This was covered in question 4.
+
+Lastly, the requirement mentions using an HTTP header. The -H/--header option is used to work with custom HTTP headers. The generic format for the -H/--header option is -H "HeaderName: HeaderValue". This was covered in question 6. In this case, the argument would be -H "Hack: 12ft". Combining all of these pieces together, I arrive at the command below. 
+
+```curl --insecure --data "skip=bow" --cookie "end=10" -H "Hack: 12ft" https://curlingfun:9090/```
+
+This command works successfully, and I see the following output to make a new complex command.
+
+![Screenshot 2024-12-25 130526](https://github.com/user-attachments/assets/3fa06564-2d5a-42b9-a740-2cf3b5fae062)
+
+This question will require the "--path-as-is" option. This controls a default behavior, where cURL will modify your URL unless you tell it not to. I use this argument/option, and the --insecure option is still needed. This is covered in question 7 above. 
+
+```curl --insecure --path-as-is https://curlingfun:9090/../../etc/button```
+
+The command works successfully and I get the last question for the gold trophy in this challenge. 
+
+![Screenshot 2024-12-25 130827](https://github.com/user-attachments/assets/41befc2a-2fc0-4fb0-8c35-52f235ac94bb)
+
+When I read this question, redirects is the keyword that stuck out to me. I searched for "curl url redirection" and found out about the -L/--location option, which allows cURL to follow a redirect. I still need the -k/--insecure option.
+
+```curl --insecure --location https://curlingfun:9090/GoodSportsmanship```
+
+This last question gives me the gold badge for this challenge. Now I move onto the Frosty Keypad challenge. 
+
+![Screenshot 2024-12-25 131204](https://github.com/user-attachments/assets/74c15405-4020-4200-8634-4a4b12b6e671)
