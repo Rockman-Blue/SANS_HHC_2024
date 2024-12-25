@@ -26,5 +26,29 @@ Below are the questions and solutions:
 
 3. Working with APIs and embedded devices often requires making HTTP POST requests. Use curl to send a request to https://curlingfun:9090/ with the parameter "skip" set to the value "alabaster", declaring Alabaster as the team captain.
 
-``` ```
-* 
+```curl --insecure --data "skip=alabaster" https://curlingfun:9090/```
+* The --data option allows you to send the specified data in a HTTP POST request. The generic format is --data "name:value". Like the previous question, I use the -k/--insecure option since the certificate is self signed (URL has https not http, which wouldn't need -k/--insecure due to the lack of a cert).
+
+ 4. Working with APIs and embedded devices often requires maintaining session state by passing a cookie.  Use curl to send a request to https://curlingfun:9090/ with a cookie called "end" with the value "3", indicating we're on the third end of the curling match.  
+
+```curl --insecure --cookie "end=3" https://curlingfun:9090/```
+* After struggling for a bit and typing hint to get a hint, the hint tells me to use the --cookie option to pass cookies. I use that hint to make the right command. Like the previous two questions, I still need the -k/--insecure option since the certificate for the HTTPS protected page is self signed. Without that option I'd get an error. 
+
+5. Working with APIs and embedded devices sometimes requires working with raw HTTP headers.  Use curl to view the HTTP headers returned by a request to https://curlingfun:9090/
+
+```curl --insecure -v https://curlingfun:9090/```
+* The --insecure option is still neeeded since the the HTTPS page uses a self-signed certificate. The -v/--verbose option tells cURL to return more information, including the HTTP headers involved in the request to the URL I specified.
+
+6. Working with APIs and embedded devices sometimes requires working with custom HTTP headers.  Use curl to send a request to https://curlingfun:9090/ with an HTTP header called "Stone" and the value "Granite"
+
+```curl --insecure -H "Stone: Granite" https://curlingfun:9090/```
+* The -H/--header option is used to work with custom HTTP headers. The -k/--insecure option is still needed as it is for previous questions for the same reason. The generic format for the -H/--header option is -H "HeaderName: HeaderValue".
+
+7. curl will modify your URL unless you tell it not to.  For example, use curl to retrieve the following URL containing special characters: https://curlingfun:9090/../../etc/hacks
+
+```curl --insecure --path-as-is https://curlingfun:9090/../../etc/hacks```
+* Earlier before question 1, I get two hints for this challenge in the event. One of them is to use cURL's "--path-as-is" option. This controls a default behavior. In this case the default behavior is how cURL will modify your URL unless you tell it not to. I use that argument/option, and the --insecure option is still needed.
+
+![Screenshot 2024-12-25 125344](https://github.com/user-attachments/assets/6ae0013e-5fc6-4b76-8a9b-d4500782bfac)
+
+That's the last question to get the silver trophy for this challenge. 
