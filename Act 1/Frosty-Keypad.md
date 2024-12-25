@@ -5,7 +5,7 @@ After exploring the Act 1 island for a little bit, I talk to Morcel to learn mor
 * Well this is puzzling. I wonder if Santa has a seperate code. Bet that would cast some light on the problem. I know this is a stretch...but...what if you had one of those fancy UV lights to look at the fingerprints on the keypad? That might at least limit the possible digits being used...
 * Hmmmm. I know I have seen Santa and the other elves use this keypad. I wonder what it contains. I bet whatever is in there is a National Treasure!
 
-I wander around the game world to look for a copy of the book. I find the book nearby, it's placed behind that last and I can read its contents at https://frost-y-book.com/. I read that and then go to the challenge terminal to learn more about the challenge.
+I wander around the game world to look for a copy of the book. I find the book nearby, it's placed behind that last crate all the way at the right of the above screenshot. I can read its contents at https://frost-y-book.com/. I read that and then go to the challenge terminal to learn more about the challenge.
 
 ![Screenshot 2024-12-25 133048](https://github.com/user-attachments/assets/50ed3efa-ff74-4239-90f8-ac73f5cc7af9)
 
