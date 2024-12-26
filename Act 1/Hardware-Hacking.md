@@ -37,5 +37,16 @@ I talk to Jewel and Jewel tells me that Santa is missing, and that the only way 
 
 I get two hints for this part of the challenge. One of them mentions that passwords can get added to log files and other easy to access locations, and that in these cases you can step back in history and identify the password. The second hint mentions there being a HMAC generator included in [CyberChef.](https://gchq.github.io/CyberChef/#recipe=HMAC(%7B'option':'UTF8','string':''%7D,'SHA256'))
 
+I navigate to the terminal, start the device, and type the history command to see previously typed commands. That stuck out to me as the best option since the first hint above italicized the word history in the game hint menu. 
 
+![Screenshot 2024-12-26 083350](https://github.com/user-attachments/assets/cbd05840-1b62-4299-9512-1821462fefd6)
 
+I notice that the command at line 11 gives me a huge hint on how to solve this challenge. First, it tells me the passcode I need to be able to change the access to card number 42. Next, I know I need to use the --set-access argument to change the access. I look at the help menu with the command explanations at the top of the terminal to help form my command. 
+
+![Screenshot 2024-12-26 083829](https://github.com/user-attachments/assets/0eb8bc2f-098f-45ee-8bc7-59c14119c086)
+
+After looking at these options, I craft the command needed to get the silver trophy for this challenge. The --passcode argument is needed since I know that the slh tool is password protected. With the --set-access argument, it's either 0 for no access, or 1 for full access. The --id argument is for the ID of the card, which I know is 42 from talking to Jewel. 
+
+![Screenshot 2024-12-26 083945](https://github.com/user-attachments/assets/663a7e7e-5795-4906-9fff-430998b3933b)
+
+It's now time for me to move onto Act 2.
