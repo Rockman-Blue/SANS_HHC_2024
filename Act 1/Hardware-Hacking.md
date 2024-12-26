@@ -6,4 +6,32 @@ I talk to Morcel, and Morcel tells me there's a sample Python script for a heuri
 
 Morcel mentioned shredded paper in my initial conversation with him. I check my items and find the image of the paper [here.](https://holidayhackchallenge.com/2024/shreds.zip) After downloading and unzipping the file, I notice it's just many images about one pixel wide, emulating pieces of shredded paper. 
 
-The Python script above can help me put together the image I need to help with this challenge. 
+The Python script above can help me put together the image I need to help with this challenge. I download the script and run it with the images downloaded from the ZIP file to get the image below.
+
+![Screenshot 2024-12-26 075722](https://github.com/user-attachments/assets/1e6462ab-96c6-45c7-9960-d57b16066428)
+
+Next, I use ChatGPT to fix the image by mirroring it. I get the below image. 
+
+![Screenshot 2024-12-26 081028](https://github.com/user-attachments/assets/a4776579-3d75-46f0-91a0-fb2737a443a6)
+
+This gives me the following information:
+* Baud - 115200
+* Parity - Even
+* Data - 7 Bits
+* Stopbits - 1 bit
+* Flow Control - RTS
+
+However, before I select those settings on the device itself, I have to make sure the wires and cables are connected properly. I'm not too familiar with hardware, so I ask in the Discord server for some help and am able to connect the wires.
+
+![Screenshot 2024-12-26 081726](https://github.com/user-attachments/assets/aaee8262-3eaa-4526-b618-67d4515846c6)
+
+I click Zoom In on the device and use the in game controls to configure the options to be the same as the reconstructed image and click start. When I clicked start, I got smoke, which indicated a voltage issue. 
+
+![Screenshot 2024-12-26 082115](https://github.com/user-attachments/assets/e3effdc7-fae7-4d9c-8b52-be62d9f5aad0)
+
+I look at the manual and it tells me that I can change the voltage on the UART-Bridge device between 3V or 5V. I change it to 3V and hit start again. This allows me to complete the first part of this challenge, and the game tells me to talk to Jewel to proceed further. 
+
+![Screenshot 2024-12-26 082340](https://github.com/user-attachments/assets/85f62064-a9be-47ad-a921-33bac19e3c23)
+
+
+
