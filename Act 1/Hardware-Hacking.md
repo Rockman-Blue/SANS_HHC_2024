@@ -33,5 +33,9 @@ I look at the manual and it tells me that I can change the voltage on the UART-B
 
 ![Screenshot 2024-12-26 082340](https://github.com/user-attachments/assets/85f62064-a9be-47ad-a921-33bac19e3c23)
 
+I talk to Jewel and Jewel tells me that Santa is missing, and that the only way to track him is to access the Wish List in his chest. I must modify the access_cards database to get entry by granting access to card number 42. Jewel tells me that I must use the slh application which is the key to get into the access database. That slh tool is password protected, so I have to find it before granting access to card number 42. 
+
+I get two hints for this part of the challenge. One of them mentions that passwords can get added to log files and other easy to access locations, and that in these cases you can step back in history and identify the password. The second hint mentions there being a HMAC generator included in [CyberChef.](https://gchq.github.io/CyberChef/#recipe=HMAC(%7B'option':'UTF8','string':''%7D,'SHA256')
+
 
 
