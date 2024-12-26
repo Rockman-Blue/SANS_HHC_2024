@@ -4,4 +4,6 @@ I talk to Jewel to get some of the story context behind this challenge, and Jewe
 
 I talk to Morcel, and Morcel tells me there's a sample Python script for a heuristic detection technique [here.](https://gist.github.com/arnydo/5dc85343eca9b8eb98a0f157b9d4d719) 
 
-Morcel mentioned shredded paper in my initial conversation with him. I check my items and find the image of the paper [here.](https://holidayhackchallenge.com/2024/shreds.zip) 
+Morcel mentioned shredded paper in my initial conversation with him. I check my items and find the image of the paper [here.](https://holidayhackchallenge.com/2024/shreds.zip) After downloading and unzipping the file, I notice it's just many images about one pixel wide, emulating pieces of shredded paper. 
+
+The Python script above can help me put together the image I need to help with this challenge. 
