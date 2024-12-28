@@ -36,9 +36,16 @@ I go to the profile page to look for more information, and find another csv file
 
 ![Screenshot 2024-12-28 105421](https://github.com/user-attachments/assets/e7f24e6f-b32e-4d15-b030-4442676968c2)
 
-I first look at the ELF-HAWK-dump csv file, since the comments for ELF-HAWK mention where to find the activation code. As you can see, the file is very messy and has way too much data to sift through by hand. 
+I first look at the ELF-HAWK-dump.csv file, since the comments for ELF-HAWK mention where to find the activation code. As you can see, the file is very messy and has way too much data to sift through by hand. 
 
 ![Screenshot 2024-12-28 105839](https://github.com/user-attachments/assets/11f28948-322b-4dfc-a7c0-5e46758c1526)
 
-After trying to filter the data within Google Sheets and other means I got stuck. I asked in the Discord for a hint, and someone mentioned they had used the [QGIS software](https://www.qgis.org/). I download the software and import the ELF-HAWK-dump.csv file into it. 
+After trying to filter the data within Google Sheets and other means I got stuck. I asked in the Discord for a hint, and someone mentioned they had used the [QGIS software](https://www.qgis.org/) and that they converted the CSV file to KML. First I used a CSV to KML converter to convert ELF-HAWK-dump.csv to ELF-HAWK-dump.kml. Then, I download the QGIS software and import the ELF-HAWK-dump.kml file into it. This took some messing around with the menus, since I'm unfamiliar with the software. 
 
+After I did that, I got the image below. So the activation code is DroneDataAnalystExpertMedal.
+
+![Screenshot 2024-12-28 113243](https://github.com/user-attachments/assets/8c4c6a2a-dc60-4949-9432-972c8896c086)
+
+I go back to the challenge window and input the activation code to get the silver trophy for this challenge. 
+
+![Screenshot 2024-12-28 113354](https://github.com/user-attachments/assets/5d0cf227-da30-4bb0-aa7a-ccfaaae588cb)
