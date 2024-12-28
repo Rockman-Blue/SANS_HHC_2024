@@ -11,3 +11,10 @@ My goal is to download both versions of the app as .apk files and look for the m
 The hint suggests using either of these two tools:
 * [apktool](https://github.com/iBotPeaches/Apktool/releases)
 * [jadx](https://github.com/skylot/jadx)
+
+I download the jadx tool and open the SantaSwipe.apk file (debug version of app). There are a lot of files to comb through. After spending some time looking through the various files and folders, I got to Discord to get a hint. There, someone tells me to look at the com.northpole.santaswipe.MainActivity file under the com/northpole.santaswipe directory. I look around in the file and find the following code. 
+
+```java
+Cursor cursor = sQLiteDatabase.rawQuery("SELECT Item FROM NormalList WHERE Item NOT LIKE '%Ellie%'", null);
+```
+
