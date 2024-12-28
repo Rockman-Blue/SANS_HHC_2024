@@ -22,8 +22,30 @@ Ellie is the missing name for the debug version of the app. I go to my objective
 
 ![Screenshot 2024-12-28 100635](https://github.com/user-attachments/assets/b3b0ae24-4d96-4fc9-88d0-aee17df9d2b5)
 
-Next I open the SantaSwipeSecure.aab file (release version of app) in jadx. My first instict is to go to the com/northpole.santaswipe directory, since that was the directory that contained the file with the answer for the debug version of the app. Like the previous part of this challenge, the answer is in a database helper class. I find the following line, but it is encrypted. 
+Next I open the SantaSwipeSecure.aab file (release version of app) in jadx. My first instict is to go to the com/northpole.santaswipe directory, since that was the directory that contained the file with the answer for the debug version of the app. Like the previous part of this challenge, the answer is in a DatabaseHelper class. I find the following line, but it is encrypted. 
 
 ```java
 db.execSQL(decryptData("IVrt+9Zct4oUePZeQqFwyhBix8cSCIxtsa+lJZkMNpNFBgoHeJlwp73l2oyEh1Y6AfqnfH7gcU9Yfov6u70cUA2/OwcxVt7Ubdn0UD2kImNsclEQ9M8PpnevBX3mXlW2QnH8+Q+SC7JaMUc9CIvxB2HYQG2JujQf6skpVaPAKGxfLqDj+2UyTAVLoeUlQjc18swZVtTQO7Zwe6sTCYlrw7GpFXCAuI6Ex29gfeVIeB7pK7M4kZGy3OIaFxfTdevCoTMwkoPvJuRupA6ybp36vmLLMXaAWsrDHRUbKfE6UKvGoC9d5vqmKeIO9elASuagxjBJ"));
+```
+
+After looking around in the same DataBase class I find the following code. This code reveals where the strings are being loaded from.
+
+```java
+    public DatabaseHelper(Context context) {
+        super(context, DATABASE_NAME, (SQLiteDatabase.CursorFactory) null, R.xml.data_extraction_rules);
+        Intrinsics.checkNotNullParameter(context, "context");
+        String string = context.getString(R.string.ek);
+        Intrinsics.checkNotNullExpressionValue(string, "getString(...)");
+        String obj = StringsKt.trim((CharSequence) string).toString();
+        String string2 = context.getString(R.string.iv);
+        Intrinsics.checkNotNullExpressionValue(string2, "getString(...)");
+        String obj2 = StringsKt.trim((CharSequence) string2).toString();
+        byte[] decode = Base64.decode(obj, R.xml.backup_rules);
+        Intrinsics.checkNotNullExpressionValue(decode, "decode(...)");
+        this.encryptionKey = decode;
+        byte[] decode2 = Base64.decode(obj2, R.xml.backup_rules);
+        Intrinsics.checkNotNullExpressionValue(decode2, "decode(...)");
+        this.iv = decode2;
+        this.secretKeySpec = new SecretKeySpec(decode, "AES");
+    }
 ```
