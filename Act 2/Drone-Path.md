@@ -17,3 +17,5 @@ From the filename and the drone path in the file I have two key pieces of inform
 I test both combinations of these at the login page and get in with fritjolf/GUMDROP1. I can search for a drone name to get drone details. 
 
 ![Screenshot 2024-12-28 103712](https://github.com/user-attachments/assets/f0bbc761-458b-4fc8-a299-78f2e8f843b8)
+
+However, I don't have any drone names. So I start thinking about finding vulnerabilities on this page that can disclose information, like testing for SQL injection, command injection, cross site scripting, etc. After some testing, I input `' or '1'='1`.
