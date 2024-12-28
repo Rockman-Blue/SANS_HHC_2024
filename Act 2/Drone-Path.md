@@ -49,3 +49,5 @@ After I did that, I got the image below. So the activation code is DroneDataAnal
 I go back to the challenge window and input the activation code to get the silver trophy for this challenge. 
 
 ![Screenshot 2024-12-28 113354](https://github.com/user-attachments/assets/5d0cf227-da30-4bb0-aa7a-ccfaaae588cb)
+
+Next, it's time for me to talk to Piney to start the PowerShell challenge. 
