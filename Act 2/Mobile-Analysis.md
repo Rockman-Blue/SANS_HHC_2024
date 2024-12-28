@@ -18,3 +18,12 @@ I download the jadx tool and open the SantaSwipe.apk file (debug version of app)
 Cursor cursor = sQLiteDatabase.rawQuery("SELECT Item FROM NormalList WHERE Item NOT LIKE '%Ellie%'", null);
 ```
 
+Ellie is the missing name for the debug version of the app. I go to my objectives page in my menu to submit the missing name and get the silver trophy for this challenge. 
+
+![Screenshot 2024-12-28 100635](https://github.com/user-attachments/assets/b3b0ae24-4d96-4fc9-88d0-aee17df9d2b5)
+
+Next I open the SantaSwipeSecure.aab file (release version of app) in jadx. My first instict is to go to the com/northpole.santaswipe directory, since that was the directory that contained the file with the answer for the debug version of the app. Like the previous part of this challenge, the answer is in a database helper class. I find the following line, but it is encrypted. 
+
+```java
+db.execSQL(decryptData("IVrt+9Zct4oUePZeQqFwyhBix8cSCIxtsa+lJZkMNpNFBgoHeJlwp73l2oyEh1Y6AfqnfH7gcU9Yfov6u70cUA2/OwcxVt7Ubdn0UD2kImNsclEQ9M8PpnevBX3mXlW2QnH8+Q+SC7JaMUc9CIvxB2HYQG2JujQf6skpVaPAKGxfLqDj+2UyTAVLoeUlQjc18swZVtTQO7Zwe6sTCYlrw7GpFXCAuI6Ex29gfeVIeB7pK7M4kZGy3OIaFxfTdevCoTMwkoPvJuRupA6ybp36vmLLMXaAWsrDHRUbKfE6UKvGoC9d5vqmKeIO9elASuagxjBJ"));
+```
