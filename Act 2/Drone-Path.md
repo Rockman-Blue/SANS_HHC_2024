@@ -40,5 +40,5 @@ I first look at the ELF-HAWK-dump csv file, since the comments for ELF-HAWK ment
 
 ![Screenshot 2024-12-28 105839](https://github.com/user-attachments/assets/11f28948-322b-4dfc-a7c0-5e46758c1526)
 
-After trying to filter the data within Google Sheets and other means I got stuck. I asked in the Discord for a hint, and someone mentioned they had used the [QGIS software](https://www.qgis.org/). I download the software and import the ELF-HAWK-dump.csv file. 
+After trying to filter the data within Google Sheets and other means I got stuck. I asked in the Discord for a hint, and someone mentioned they had used the [QGIS software](https://www.qgis.org/). I download the software and import the ELF-HAWK-dump.csv file into it. 
 
