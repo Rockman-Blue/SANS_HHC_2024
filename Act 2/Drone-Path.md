@@ -18,4 +18,7 @@ I test both combinations of these at the login page and get in with fritjolf/GUM
 
 ![Screenshot 2024-12-28 103712](https://github.com/user-attachments/assets/f0bbc761-458b-4fc8-a299-78f2e8f843b8)
 
-However, I don't have any drone names. So I start thinking about finding vulnerabilities on this page that can disclose information, like testing for SQL injection, command injection, cross site scripting, etc. After some testing, I input `' or '1'='1`.
+However, I don't have any drone names. So I start thinking about finding vulnerabilities on this page that can disclose information, like testing for SQL injection, command injection, cross site scripting, etc. After some testing, I input `' or '1'='1` to display available drone details. 
+
+![Screenshot 2024-12-28 104723](https://github.com/user-attachments/assets/63ab65d2-53fb-4b99-ac3f-a6b7014eada9)
+
