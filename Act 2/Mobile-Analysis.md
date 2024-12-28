@@ -21,3 +21,5 @@ Cursor cursor = sQLiteDatabase.rawQuery("SELECT Item FROM NormalList WHERE Item 
 Ellie is the missing name for the debug version of the app. I go to my objectives page in my menu to submit the missing name and get the silver trophy for this challenge. 
 
 ![Screenshot 2024-12-28 100635](https://github.com/user-attachments/assets/b3b0ae24-4d96-4fc9-88d0-aee17df9d2b5)
+
+Now it's time for me to talk to Chimney Scissorsticks to start the Drone Path challenge. 
