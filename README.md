@@ -1,6 +1,6 @@
 # Intro 
 
-This repository is my submission for the SANS Holiday Hack Challenge 2024 contest, which is graciously provided to the cybersecurity community by SANS and CounterHack.
+This repository is my submission for the SANS Holiday Hack Challenge 2024 contest, which is graciously provided to the cybersecurity community by SANS and Counter Hack.
 
 I have different folders for each phase of the challenge (Prologue, Act 1, Act 2, and Act 3). Within each folder is a separate markdown file for each challenge within that phase. 
 
