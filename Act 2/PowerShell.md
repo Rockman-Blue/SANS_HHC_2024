@@ -49,4 +49,39 @@ Piney is locked out of the system for the snowball weaponry. Time to use PowerSh
 
 
 6) There are too many endpoints here. Use a loop to download the contents of each page. What page has 138 words? When you find it, communicate with the URL and print the contents to the terminal.
+* From the Invoke-WebRequest command above, in the Links section of the output, I see the many endpoints. The elipses indicates there are more endpoints than listed. 
+![Screenshot 2025-01-02 081504](https://github.com/user-attachments/assets/7439168f-af90-405d-9c07-128e2e95e9e4)
+* After looking through the command output, there are four endpoints with the following links:
+1) http://localhost:1225/endpoints/1
+2) http://localhost:1225/endpoints/2
+3) http://localhost:1225/endpoints/3
+4) http://localhost:1225/endpoints/4
+* After looking at some documentation, I find out that the Invoke-WebRequest cmdlet supports the -OutFile parameter, where I can specify a location to store the files download with Invoke-WebRequest. Instead of using a loop, I just use a command for each endpoint since it's only four of them:
+
+```Invoke-WebRequest -Uri http://localhost:1225/endpoints/1 -OutFile endpoint1```
+
+```Invoke-WebRequest -Uri http://localhost:1225/endpoints/2 -OutFile endpoint2```
+
+```Invoke-WebRequest -Uri http://localhost:1225/endpoints/3 -OutFile endpoint3```
+
+```Invoke-WebRequest -Uri http://localhost:1225/endpoints/4 -OutFile endpoint4```
+
+* Now, I have the content of each endpoint page. Like in question 2, I will use Get-Content in a pipeline with Measure-Object to see how many words each file has by running ```Get-Content ./<endpoint#> | Measure-Object -Word``` for each endpoint I've found so far.
+
+![Screenshot 2025-01-02 084050](https://github.com/user-attachments/assets/729ca696-c7e6-4d0d-ae1d-f65a949a67a6)
+
+* So far, none of the endpoints I have downloaded have 138 words. It's time to download the other endpoints with Invoke-WebRequest and count the words using Get-Content and Measure-Object. I do this for each endpoint until I find the one with 138 words. 
+
+![Screenshot 2025-01-02 084310](https://github.com/user-attachments/assets/fd998cd1-43d3-460d-b88a-d2a868a129ee)
+
+* Now I know that the endpoint 13 page has 138 words, I have to communicate with the URL and print the contents to the terminal. After searching for "invoke web request print contents" on Google, I find a stack overflow page that tells me how to use Invoke-WebRequest to display all content. To do this, I use a pipeline starting with Invoke-WebRequest, and pipe it to Select-Object. The -Expand Content command allows me to view all content returned by the Invoke-WebRequest command earlier in the pipeline. 
+
+```Invoke-WebRequest -Uri http://localhost:1225/endpoints/13 | Select-Object -Expand Content```
+
+7) There seems to be a csv file in the comments of that page. That could be valuable, read the contents of that csv-file!
+
+![Screenshot 2025-01-02 085029](https://github.com/user-attachments/assets/dc3d79c8-e02d-40e0-94c2-33fe9692df01)
+
+* Reading the output of the above command, I see where the CSV file is. Like for question 6, I can use the Invoke-WebRequest cmdlet in.
+
 * 
