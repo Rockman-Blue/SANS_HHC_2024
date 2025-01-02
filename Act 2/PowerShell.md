@@ -82,6 +82,12 @@ Piney is locked out of the system for the snowball weaponry. Time to use PowerSh
 
 ![Screenshot 2025-01-02 085029](https://github.com/user-attachments/assets/dc3d79c8-e02d-40e0-94c2-33fe9692df01)
 
-* Reading the output of the above command, I see where the CSV file is. Like for question 6, I can use the Invoke-WebRequest cmdlet in.
+* Reading the output of the above command, I see where the CSV file is. Like for question 6, I can use the Invoke-WebRequest cmdlet in a pipeline with Select-Object to retrieve the content of the page. When I try doing that, I get an error. 
 
-* 
+![Screenshot 2025-01-02 085640](https://github.com/user-attachments/assets/316180b3-4d20-48c8-a6f9-10058718bc94)
+
+* Like in question 5, there are defensive measures in place. To bypass them, I use the credentials in question 5, admin/admin. After using Get-Credential with Invoke-WebRequest I can see the csv using the following commands. After typing the first command, I type admin for the username and password. The second command needs the -Credential argument to bypass the authorization requirement, and the -AllowUnencryptedAuthentication argument is needed to not get an error (like the same one I got in question 5). Finally, Select-Object is used in a pipeline to return all of the content on that page. 
+
+```$cred = Get-Credential```
+
+```Invoke-WebRequest -Uri "http://127.0.0.1:1225/token_overview.csv" -Credential $cred -AllowUnencryptedAuthentication | Select-Object -Expand Content```
