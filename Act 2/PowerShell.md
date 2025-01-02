@@ -132,4 +132,4 @@ $session.Cookies.Add($cookie)
 
 ![Screenshot 2025-01-02 103404](https://github.com/user-attachments/assets/d6fe7c01-e30a-4d05-bc2b-719d45243630)
 
-* I talked to someone in the Discord server who had the same issue. They said I have to automate the extraction of the MFA token. 
+* I talked to someone in the Discord server who had the same issue. They said I have to automate the extraction of the MFA token. The reason I have to automate the extraction is because there are two cookies, and one of them changes. The two cookies are the one from question 9, but the other one (mfa token) changes. So I need to use a script to automate the extraction of the MFA token to account for it changing. 
