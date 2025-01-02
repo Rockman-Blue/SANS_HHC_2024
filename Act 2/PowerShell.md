@@ -99,3 +99,17 @@ Piney is locked out of the system for the snowball weaponry. Time to use PowerSh
 ![Screenshot 2025-01-02 090335](https://github.com/user-attachments/assets/2f2369aa-bc40-4565-b105-ee8a5661b5d5)
 
 * Going by the information in the output, the correct URL would be ```http://127.0.0.1:1225/tokens/4216B4FAF4391EE4D3E0EC53A372B2F24876ED5D124FE08E227F84D687A7E06C```. 
+
+* I have to use that URI wit Invoke-WebRequest to communicate with the endpoint. I do that with the below command to answer the question.
+
+```Invoke-WebRequest -Uri "http://127.0.0.1:1225/tokens/4216B4FAF4391EE4D3E0EC53A372B2F24876ED5D124FE08E227F84D687A7E06C" -Credential $cred -AllowUnencryptedAuthentication```
+
+9) It looks like it requires a cookie token, set the cookie and try again.
+    
+* To set the cookie, I think to myself that there must be an argument to use with Invoke-WebRequest to set and store cookies. After looking at the Microsoft documentation for the cmdlet, I learn about the -WebSession argument, where the syntax is ```-WebSession <WebRequestSession>```. Before I use that argument in a Invoke-WebRequest command, I need to find out what to pass to the argument.
+* I search to find how to get a session cookie with PowerShell, and I find out I have to use Microsoft.PowerShell.Commands.WebRequestSession. I find a Stack Overflow page that has an example. I try applying the commands used in that post to this challenge, but it doesn't work.
+* I look to the Discord for some help, and someone mentioned using [this PowerShell script]((https://gist.github.com/lawrencegripper/6bee7de123bea1936359) to help them solve this question. After experimenting with it, I am do the following:
+
+```powershell
+$session = New-Object Microsoft.PowerShell.Commands.WebRequestSession
+```
