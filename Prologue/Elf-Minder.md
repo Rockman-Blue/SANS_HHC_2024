@@ -17,5 +17,3 @@ After completing all of the levels, I get awarded the silver trophy for this cha
 
 ![Screenshot 2024-12-24 092603](https://github.com/user-attachments/assets/f648f06d-0f10-4cb0-ae1e-006643029460)
 
-Next Challenge: 
-* [Elf Minder - Silver](https://github.com/Rockman-Blue/SANS_HHC_2024/blob/caa69ea43e52492012353cf0200709359376a0b7/Prologue/Elf-Minder.md)
