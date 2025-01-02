@@ -111,6 +111,7 @@ Piney is locked out of the system for the snowball weaponry. Time to use PowerSh
 * I look to the Discord for some help, and someone mentioned using [this PowerShell script]((https://gist.github.com/lawrencegripper/6bee7de123bea1936359) to help them solve this question. After experimenting with it, I am run the following commands in succession. 
 
 ```powershell
+$cred = Get-Credential
 $session = New-Object Microsoft.PowerShell.Commands.WebRequestSession
 $cookie = New-Object System.Net.Cookie
 $cookie.Name = "token"
@@ -119,11 +120,11 @@ $cookie.Domain = "127.0.0.1"
 $session.Cookies.Add($cookie)
 ```
 
-* The first line above creates a new WebRequestSession to store the cookie. Lines 2-5 create the cookie. Line 6 adds the cookie to the current session.
+* After typing the first line, I input the credentials admin/admin. The second line above creates a new WebRequestSession to store the cookie. Lines 3-6 create the cookie. Line 6 adds the cookie to the current session.
 * After this setup I had some trouble crafting the final command to communicate with the endpoint. After talking to someone in the Discord server to get a hint, I run the following command to complete this question.
 
 ```powershell
-(Invoke-WebRequest -Uri http://127.0.0.1:1225/tokens/4216B4FAF4391EE4D3E0EC53A372B2F24876ED5D124FE08E227F84D687A7E06C -Headers $Headers -WebSession $session).content
+(Invoke-WebRequest -Uri http://127.0.0.1:1225/tokens/4216B4FAF4391EE4D3E0EC53A372B2F24876ED5D124FE08E227F84D687A7E06C -Headers $Headers -WebSession $session -Credential $cred -AllowUnencryptedAuthentication).content
 ```
 
 10) Sweet we got a MFA token! We might be able to get access to the system. Validate that token at the endpoint!
