@@ -17,3 +17,6 @@ After completing this first introductory challenge, two more challenges open up 
 ![Screenshot 2024-12-24 074039](https://github.com/user-attachments/assets/b7089508-7496-4c0b-b95e-4914105c5591)
 
 Now it's time for me talk to Angel and Poinsettia to help them and complete the challenges in the prologue phase of this event. 
+
+Next Challenge:
+* [Elf Connect - Silver and Gold](https://github.com/Rockman-Blue/SANS_HHC_2024/blob/caa69ea43e52492012353cf0200709359376a0b7/Prologue/Elf-Connect.md)
