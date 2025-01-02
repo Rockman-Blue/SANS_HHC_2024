@@ -44,6 +44,7 @@ Piney is locked out of the system for the snowball weaponry. Time to use PowerSh
 * After reading the error, I add the needed parameter. So the two commands required to complete this challenge are below.
 
 ```$cred = Get-Credential```
+
 ```Invoke-WebRequest -Uri "http://localhost:1225" -Credential $cred -AllowUnencryptedAuthentication```
 
 
