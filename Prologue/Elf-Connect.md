@@ -1,4 +1,4 @@
-# Silver 
+# Silver Trophy
 
 After talking to Angel, Angel tells me that he needs help with the elf connect game. Angel describes how the game works, and two hints open up, one for the easier and harder version of the challenge in the left hand menu (i icon). 
 
