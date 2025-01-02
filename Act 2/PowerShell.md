@@ -56,7 +56,7 @@ Piney is locked out of the system for the snowball weaponry. Time to use PowerSh
 2) http://localhost:1225/endpoints/2
 3) http://localhost:1225/endpoints/3
 4) http://localhost:1225/endpoints/4
-* After looking at some documentation, I find out that the Invoke-WebRequest cmdlet supports the -OutFile parameter, where I can specify a location to store the files download with Invoke-WebRequest. Instead of using a loop, I just use a command for each endpoint since it's only four of them:
+* After looking at some documentation, I find out that the Invoke-WebRequest cmdlet supports the -OutFile parameter, where I can specify a location to store the files download with Invoke-WebRequest. Instead of using a loop, I just use a command for each endpoint:
 
 ```Invoke-WebRequest -Uri http://localhost:1225/endpoints/1 -OutFile endpoint1```
 
@@ -74,7 +74,7 @@ Piney is locked out of the system for the snowball weaponry. Time to use PowerSh
 
 ![Screenshot 2025-01-02 084310](https://github.com/user-attachments/assets/fd998cd1-43d3-460d-b88a-d2a868a129ee)
 
-* Now I know that the endpoint 13 page has 138 words, I have to communicate with the URL and print the contents to the terminal. After searching for "invoke web request print contents" on Google, I find a stack overflow page that tells me how to use Invoke-WebRequest to display all content. To do this, I use a pipeline starting with Invoke-WebRequest, and pipe it to Select-Object. The -Expand Content command allows me to view all content returned by the Invoke-WebRequest command earlier in the pipeline. 
+* Now I know that the endpoint 13 page has 138 words, I see why the question said to use a loop haha. I have to communicate with the URL and print the contents to the terminal. After searching for "invoke web request print contents" on Google, I find a stack overflow page that tells me how to use Invoke-WebRequest to display all content. To do this, I use a pipeline starting with Invoke-WebRequest, and pipe it to Select-Object. The -Expand Content command allows me to view all content returned by the Invoke-WebRequest command earlier in the pipeline. 
 
 ```Invoke-WebRequest -Uri http://localhost:1225/endpoints/13 | Select-Object -Expand Content```
 
