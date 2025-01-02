@@ -128,4 +128,8 @@ $session.Cookies.Add($cookie)
 
 10) Sweet we got a MFA token! We might be able to get access to the system. Validate that token at the endpoint!
 
-* 
+* After experimenting with the script and adding the necessary values, I get this error. 
+
+![Screenshot 2025-01-02 103404](https://github.com/user-attachments/assets/d6fe7c01-e30a-4d05-bc2b-719d45243630)
+
+* I talked to someone in the Discord server who had the same issue. They said I have to automate the extraction of the MFA token. 
