@@ -1,3 +1,5 @@
+# Silver 
+
 After talking to Angel, Angel tells me that he needs help with the elf connect game. Angel describes how the game works, and two hints open up, one for the easier and harder version of the challenge in the left hand menu (i icon). 
 
 ![Screenshot 2024-12-24 074226](https://github.com/user-attachments/assets/2832e4b3-eda5-4d64-9969-678749774857)
@@ -65,7 +67,11 @@ Round 4 Solutions:
 
 ![Screenshot 2024-12-24 081409](https://github.com/user-attachments/assets/372d78f7-204a-4117-8a26-9e75cb885995)
 
-After completing Round 4, I get the silver badge for this challenge. I am curious about the gold badge for this challenge, so I look at the requirements. It mentions a high score of 50,000 points. Seeing this, I think back to how I looked at the source code earlier in this challenge and how that helped me. So I look at the source code again. 
+After completing Round 4, I get the silver badge for this challenge. 
+
+# Gold Trophy
+
+I am curious about the gold badge for this challenge, so I look at the requirements. It mentions a high score of 50,000 points. Seeing this, I think back to how I looked at the source code earlier in this challenge and how that helped me. So I look at the source code again. 
 
 ```javascript
 let score = parseInt(sessionStorage.getItem('score') || '0'); // Initialize score
@@ -80,3 +86,6 @@ I go the my browser's developer tools, and modify the score value.
 From here, I complete the one row and my score goes above 50000, giving me the gold badge for this challenge. Now it is time to talk to Poinsettia and move onto the next challenge. 
 
 ![Screenshot 2024-12-24 082134](https://github.com/user-attachments/assets/fde73201-d7b9-4a92-a5c3-6f1dd354dea7)
+
+Next Challenge: 
+* [Elf Minder - Silver](https://github.com/Rockman-Blue/SANS_HHC_2024/blob/caa69ea43e52492012353cf0200709359376a0b7/Prologue/Elf-Minder.md)
