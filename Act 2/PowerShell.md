@@ -123,4 +123,9 @@ $session.Cookies.Add($cookie)
 * After this setup I had some trouble crafting the final command to communicate with the endpoint. After talking to someone in the Discord server to get a hint, I run the following command to complete this question.
 
 ```powershell
-(Invoke-WebRequest -Uri http://127.0.0.1:1225/tokens/4216B4FAF4391EE4D3E0EC53A372B2F24876ED5D124FE08E227F84D687A7E06C -Headers $Headers -WebSession $session).content```
+(Invoke-WebRequest -Uri http://127.0.0.1:1225/tokens/4216B4FAF4391EE4D3E0EC53A372B2F24876ED5D124FE08E227F84D687A7E06C -Headers $Headers -WebSession $session).content
+```
+
+10) Sweet we got a MFA token! We might be able to get access to the system. Validate that token at the endpoint!
+
+* 
