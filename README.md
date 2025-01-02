@@ -14,14 +14,17 @@ Below is a list to the different challenge write-ups broken down by phase. Thank
 
 ## Prologue 
 
-* [Prologue-Orientation](https://github.com/Rockman-Blue/SANS_HHC_2024/blob/caa69ea43e52492012353cf0200709359376a0b7/Prologue/Prologue-Orientation.md)
-* [Elf-Connect - Silver and Gold](https://github.com/Rockman-Blue/SANS_HHC_2024/blob/caa69ea43e52492012353cf0200709359376a0b7/Prologue/Elf-Connect.md)
-* [Elf-Minder - Silver](https://github.com/Rockman-Blue/SANS_HHC_2024/blob/caa69ea43e52492012353cf0200709359376a0b7/Prologue/Elf-Minder.md)
+* [Prologue Orientation](https://github.com/Rockman-Blue/SANS_HHC_2024/blob/caa69ea43e52492012353cf0200709359376a0b7/Prologue/Prologue-Orientation.md)
+* [Elf Connect - Silver and Gold](https://github.com/Rockman-Blue/SANS_HHC_2024/blob/caa69ea43e52492012353cf0200709359376a0b7/Prologue/Elf-Connect.md)
+* [Elf Minder - Silver](https://github.com/Rockman-Blue/SANS_HHC_2024/blob/caa69ea43e52492012353cf0200709359376a0b7/Prologue/Elf-Minder.md)
 
 ## Act 1 
 
-* [title](https://www.example.com)
-* [title](https://www.example.com)
-* [title](https://www.example.com)
+* [Curling - Silver and Gold](https://github.com/Rockman-Blue/SANS_HHC_2024/blob/a8a920e4ff7106041084d52cfadcc38fa654accb/Act%201/Curling.md)
+* [Frosty Keypad - Silver](https://github.com/Rockman-Blue/SANS_HHC_2024/blob/a8a920e4ff7106041084d52cfadcc38fa654accb/Act%201/Frosty-Keypad.md)
+* [Hardware Hacking - Silver](https://github.com/Rockman-Blue/SANS_HHC_2024/blob/a8a920e4ff7106041084d52cfadcc38fa654accb/Act%201/Hardware-Hacking.md)
     
 ## Act 2
+
+* [Drone Path - Silver](https://www.example.com)
+* [MobileAnalysis - Silver](https://github.com/Rockman-Blue/SANS_HHC_2024/blob/a8a920e4ff7106041084d52cfadcc38fa654accb/Act%202/Mobile-Analysis.md)
