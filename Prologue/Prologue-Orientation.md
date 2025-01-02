@@ -1,4 +1,4 @@
-# Gold
+# Gold Trophy
 
 When I first load into the game world, I talked to the Elf named Jingle Ringford. Jingle gives me the snowball badge. By clicking the snowball on my avatar, I can see my objectives, hints, resources links, and conversations for the each challenge.
 
