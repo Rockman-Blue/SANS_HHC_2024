@@ -108,8 +108,19 @@ Piney is locked out of the system for the snowball weaponry. Time to use PowerSh
     
 * To set the cookie, I think to myself that there must be an argument to use with Invoke-WebRequest to set and store cookies. After looking at the Microsoft documentation for the cmdlet, I learn about the -WebSession argument, where the syntax is ```-WebSession <WebRequestSession>```. Before I use that argument in a Invoke-WebRequest command, I need to find out what to pass to the argument.
 * I search to find how to get a session cookie with PowerShell, and I find out I have to use Microsoft.PowerShell.Commands.WebRequestSession. I find a Stack Overflow page that has an example. I try applying the commands used in that post to this challenge, but it doesn't work.
-* I look to the Discord for some help, and someone mentioned using [this PowerShell script]((https://gist.github.com/lawrencegripper/6bee7de123bea1936359) to help them solve this question. After experimenting with it, I am do the following:
+* I look to the Discord for some help, and someone mentioned using [this PowerShell script]((https://gist.github.com/lawrencegripper/6bee7de123bea1936359) to help them solve this question. After experimenting with it, I am run the following commands in succession. 
 
 ```powershell
 $session = New-Object Microsoft.PowerShell.Commands.WebRequestSession
+$cookie = New-Object System.Net.Cookie
+$cookie.Name = "token"
+$cookie.Value = "5f8dd236f862f4507835b0e418907ffc"
+$cookie.Domain = "127.0.0.1"
+$session.Cookies.Add($cookie)
 ```
+
+* The first line above creates a new WebRequestSession to store the cookie. Lines 2-5 create the cookie. Line 6 adds the cookie to the current session.
+* After this setup I had some trouble crafting the final command to communicate with the endpoint. After talking to someone in the Discord server to get a hint, I run the following command to complete this question.
+
+```powershell
+(Invoke-WebRequest -Uri http://127.0.0.1:1225/tokens/4216B4FAF4391EE4D3E0EC53A372B2F24876ED5D124FE08E227F84D687A7E06C -Headers $Headers -WebSession $session).content```
