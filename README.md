@@ -4,7 +4,7 @@ This repository is my submission for the SANS Holiday Hack Challenge 2024 contes
 
 I have different folders for each phase of the challenge (Prologue, Act 1, Act 2, and Act 3). Within each folder is a separate markdown file for each challenge within that phase. 
 
-As of the time of submission, I have completed the following challenges. I was late to the party due to other obligations, but I look forward to continuing to work through Acts 2 and 3 to complete each challenge with at least a silver.  
+As of the time of submission, I have completed the following challenges. I was late to the party due to other obligations, but I look forward to continuing to work through Acts 2 and 3 to complete each challenge.  
 
 ![Screenshot 2025-01-02 184738](https://github.com/user-attachments/assets/edff5152-b952-481d-9313-35a4b4a25d70)
 
