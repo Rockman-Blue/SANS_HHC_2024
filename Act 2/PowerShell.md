@@ -91,3 +91,11 @@ Piney is locked out of the system for the snowball weaponry. Time to use PowerSh
 ```$cred = Get-Credential```
 
 ```Invoke-WebRequest -Uri "http://127.0.0.1:1225/token_overview.csv" -Credential $cred -AllowUnencryptedAuthentication | Select-Object -Expand Content```
+
+8) Luckily the defense mechanisms were faulty! There seems to be one api-endpoint that still isn't redacted! Communicate with that endpoint!
+
+* From the output of the csv file, there's two key pieces of information. First, there's a verification endpoint still active. That endpoint URL needs a SHA256 sum, which is present near the bottom of the output.
+
+![Screenshot 2025-01-02 090335](https://github.com/user-attachments/assets/2f2369aa-bc40-4565-b105-ee8a5661b5d5)
+
+* Going by the information in the output, the correct URL would be ```http://127.0.0.1:1225/tokens/4216B4FAF4391EE4D3E0EC53A372B2F24876ED5D124FE08E227F84D687A7E06C```. 
