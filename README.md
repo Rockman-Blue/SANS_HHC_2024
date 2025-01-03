@@ -27,4 +27,4 @@ Below is a list to the different challenge write-ups broken down by phase. Thank
 ## Act 2
 
 * [Mobile Analysis - Silver](https://github.com/Rockman-Blue/SANS_HHC_2024/blob/6ca19fe2cff31830b17ea9d187128d241716afc6/Act%202/Mobile-Analysis.md)
-* [Drone Path - Silver](https://github.com/Rockman-Blue/SANS_HHC_2024/blob/6ca19fe2cff31830b17ea9d187128d241716afc6/Act%202/Drone-Path.md)
+* [Drone Path - Silver](https://github.com/Rockman-Blue/SANS_HHC_2024/blob/6fb96fb9355bc413c0adfffccc7c5be009999ab1/Act%202/Drone-Path.md)
