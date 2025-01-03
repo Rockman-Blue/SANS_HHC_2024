@@ -1,3 +1,5 @@
+# Silver Trophy
+
 I wander around the game world to talk to Chimney Scissorsticks. Chimney tells me that I'll be working with drone log files to find and decode hidden information. 
 
 ![Screenshot 2024-12-28 102612](https://github.com/user-attachments/assets/5d4ebc6c-d9b4-485f-8780-d6cbd224585c)
@@ -50,4 +52,5 @@ I go back to the challenge window and input the activation code to get the silve
 
 ![Screenshot 2024-12-28 113354](https://github.com/user-attachments/assets/5d0cf227-da30-4bb0-aa7a-ccfaaae588cb)
 
-Next, it's time for me to talk to Piney to start the PowerShell challenge. 
+Next Challenge:
+* [Snowball Showdown - Bronze](https://github.com/Rockman-Blue/SANS_HHC_2024/blob/41e1e48947cba15c7e5789bee6aed8cea82d367b/Act%202/Snowball-Showdown.md)
