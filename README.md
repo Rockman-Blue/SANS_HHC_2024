@@ -14,17 +14,17 @@ Below is a list to the different challenge write-ups broken down by phase. Thank
 
 ## Prologue 
 
-* [Prologue Orientation - Gold](https://github.com/Rockman-Blue/SANS_HHC_2024/blob/6ca19fe2cff31830b17ea9d187128d241716afc6/Prologue/Prologue-Orientation.md)
-* [Elf Connect - Silver and Gold](https://github.com/Rockman-Blue/SANS_HHC_2024/blob/6ca19fe2cff31830b17ea9d187128d241716afc6/Prologue/Elf-Connect.md)
-* [Elf Minder - Silver](https://github.com/Rockman-Blue/SANS_HHC_2024/blob/6ca19fe2cff31830b17ea9d187128d241716afc6/Prologue/Elf-Minder.md)
+* [Prologue Orientation - Gold](https://github.com/Rockman-Blue/SANS_HHC_2024/blob/b2488c65c902fb6a786a61d0f333b986a70fb70c/Prologue/Prologue-Orientation.md)
+* [Elf Connect - Silver and Gold](https://github.com/Rockman-Blue/SANS_HHC_2024/blob/6414f7811461aeaa8e3ed04aade5ac3298638ef2/Prologue/Elf-Connect.md)
+* [Elf Minder - Silver](https://github.com/Rockman-Blue/SANS_HHC_2024/blob/e99883a75aded76fd2e487b996d097c26c18c828/Prologue/Elf-Minder.md)
 
 ## Act 1 
 
-* [Frosty Keypad - Silver](https://github.com/Rockman-Blue/SANS_HHC_2024/blob/6ca19fe2cff31830b17ea9d187128d241716afc6/Act%201/Frosty-Keypad.md)
-* [Curling - Silver and Gold](https://github.com/Rockman-Blue/SANS_HHC_2024/blob/6ca19fe2cff31830b17ea9d187128d241716afc6/Act%201/Curling.md)
-* [Hardware Hacking - Silver](https://github.com/Rockman-Blue/SANS_HHC_2024/blob/6ca19fe2cff31830b17ea9d187128d241716afc6/Act%201/Hardware-Hacking.md)
+* [Frosty Keypad - Silver](https://github.com/Rockman-Blue/SANS_HHC_2024/blob/89b6ffad16953664dadf05e61dbae4edaa65a022/Act%201/Frosty-Keypad.md)
+* [Curling - Silver and Gold](https://github.com/Rockman-Blue/SANS_HHC_2024/blob/e1cfc6338c80e28c5b17ae71ab40a22b5216e9cc/Act%201/Curling.md)
+* [Hardware Hacking - Silver](https://github.com/Rockman-Blue/SANS_HHC_2024/blob/0f750f19a1b056b5daa49cac54c81fa7a96798d8/Act%201/Hardware-Hacking.md)
     
 ## Act 2
 
-* [Mobile Analysis - Silver](https://github.com/Rockman-Blue/SANS_HHC_2024/blob/6ca19fe2cff31830b17ea9d187128d241716afc6/Act%202/Mobile-Analysis.md)
-* [Drone Path - Silver](https://github.com/Rockman-Blue/SANS_HHC_2024/blob/6fb96fb9355bc413c0adfffccc7c5be009999ab1/Act%202/Drone-Path.md)
+* [Mobile Analysis - Silver](https://github.com/Rockman-Blue/SANS_HHC_2024/blob/5814554da976c54f43c009e3cab54cb30ef60023/Act%202/Mobile-Analysis.md)
+* [Drone Path - Silver](https://github.com/Rockman-Blue/SANS_HHC_2024/blob/5814554da976c54f43c009e3cab54cb30ef60023/Act%202/Drone-Path.md)
