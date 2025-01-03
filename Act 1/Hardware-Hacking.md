@@ -54,4 +54,4 @@ After looking at these options, I craft the command needed to get the silver tro
 It's now time for me to move onto Act 2.
 
 Next Challenge:
-* [Mobile Analysis - Silver](https://github.com/Rockman-Blue/SANS_HHC_2024/blob/a8a920e4ff7106041084d52cfadcc38fa654accb/Act%202/Mobile-Analysis.md)
+* [Mobile Analysis - Silver](https://github.com/Rockman-Blue/SANS_HHC_2024/blob/6ca19fe2cff31830b17ea9d187128d241716afc6/Act%202/Mobile-Analysis.md)
