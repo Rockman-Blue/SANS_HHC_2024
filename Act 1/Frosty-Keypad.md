@@ -3,7 +3,7 @@
 ![Screenshot 2024-12-25 131909](https://github.com/user-attachments/assets/2de9ca2b-776c-4e39-9983-2d6ed9c532fe)
 
 After exploring the Act 1 island for a little bit, I talk to Morcel to learn more about the Frosty Keypad challenge. After talking to Morcel, I get three hints, which I read by clicking on the green "i" icon on the left hand side of the GUI. The hints are:
-* "See if you can find a copy of that book everyone seems to be reading these days. I thought I saw somebody drop one close by..."
+* See if you can find a copy of that book everyone seems to be reading these days. I thought I saw somebody drop one close by...
 * Well this is puzzling. I wonder if Santa has a seperate code. Bet that would cast some light on the problem. I know this is a stretch...but...what if you had one of those fancy UV lights to look at the fingerprints on the keypad? That might at least limit the possible digits being used...
 * Hmmmm. I know I have seen Santa and the other elves use this keypad. I wonder what it contains. I bet whatever is in there is a National Treasure!
 
@@ -15,6 +15,6 @@ This challenge involves finding pins to successfully access this machine. One of
 
 ![Screenshot 2024-12-26 072615](https://github.com/user-attachments/assets/47a30786-43dc-48d9-9b41-bdfe6bb41772)
 
-They told me that each of these number sets correlate to the same format of page#:word#:character#. After going through the hint for each of the five number sets, the numbers correlate to SANTA, or 72682. After putting in this PIN and hitting enter, I get the silver trophy for this challenge.
+I figure out that each of these number sets correlate to the same format of ```page#:word#:character#```. After going through the hint for each of the five number sets, the numbers correlate to SANTA, or ```72682```. After putting in this PIN and hitting enter, I get the silver trophy for this challenge.
 
 ![Screenshot 2024-12-26 072858](https://github.com/user-attachments/assets/0f57ad38-3e3a-4aa4-8087-89a7527c92ee)
