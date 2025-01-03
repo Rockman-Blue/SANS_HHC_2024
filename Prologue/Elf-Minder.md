@@ -1,3 +1,5 @@
+# Silver Trophy
+
 After talking to Poinsettia I learn about the Elf Minder game, and get hints for the silver and gold badges for this challenge. 
 
 ![Screenshot 2024-12-24 083112](https://github.com/user-attachments/assets/c370fa2b-0e52-470a-ad1c-ca474c693762)
