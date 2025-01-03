@@ -27,4 +27,4 @@ Ellie is the missing name for the debug version of the app. I go to my objective
 Now it's time for me to talk to Chimney Scissorsticks to start the Drone Path challenge. 
 
 Next Challenge:
-* [Drone Path - Silver](https://github.com/Rockman-Blue/SANS_HHC_2024/blob/efdabc09938adc0212e7852bfa5990818678d17e/Act%202/Drone-Path.md)
+* [Drone Path - Silver](https://github.com/Rockman-Blue/SANS_HHC_2024/blob/6fb96fb9355bc413c0adfffccc7c5be009999ab1/Act%202/Drone-Path.md)
