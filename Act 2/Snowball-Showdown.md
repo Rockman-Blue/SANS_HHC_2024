@@ -8,7 +8,7 @@ This challenge is a browser based game where I must take down the opposing elves
 
 ![Screenshot 2025-01-02 171517](https://github.com/user-attachments/assets/19c624aa-ae04-4e4e-9547-29ef078c1ea6)
 
-# Silver Trophy (Not Complete) 
+# Silver Trophy (In Progress) 
 
 Due to the message, I start to think about how I can modify client side values to gain an advantage in the game. Two ways of doing this that came to mind is modifying function parameters in the game's code or to tweak values in the URL. 
 
