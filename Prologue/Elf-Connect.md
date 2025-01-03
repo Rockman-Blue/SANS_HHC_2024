@@ -1,6 +1,6 @@
 # Silver Trophy
 
-After talking to Angel, Angel tells me that he needs help with the elf connect game. Angel describes how the game works, and two hints open up, one for the easier and harder version of the challenge in the left hand menu (i icon). 
+After talking to Angel, Angel tells me that he needs help with the elf connect game. Angel describes how the game works, and two hints open up, one for the silver trophy and one for the gold trophy (the i icon in the left hand menu). 
 
 ![Screenshot 2024-12-24 074226](https://github.com/user-attachments/assets/2832e4b3-eda5-4d64-9969-678749774857)
 
@@ -8,7 +8,7 @@ After clicking on the terminal, I am presented with this interface. The goal of 
 
 ![Screenshot 2024-12-24 074535](https://github.com/user-attachments/assets/ed325afd-c57d-431a-868e-b10d63e61bda)
 
-Right away, I notice some names of Santa's reindeer names. The reindeer names are Dasher, Dancer, Prancer, Vixen, Comet, Cupid, Dunder, Blixem, and Rudolph. One hint I have seen repeated in the Discord server for this event is to look at the source code for the challenges for hints. This is done by using the inspect element feature in my browser's development console. I do that and find the below code.
+Right away, I notice some names of Santa's reindeer names. The reindeer names are Dasher, Dancer, Prancer, Vixen, Comet, Cupid, Dunder, Blixem, and Rudolph. One hint I have seen repeated in the Discord server for this event is to look at the source code for the challenges. I do that by using the inspect element feature in my browser's development console and I find the below code.
 
 ```javascript
         const wordSets = {
@@ -27,7 +27,7 @@ Right away, I notice some names of Santa's reindeer names. The reindeer names ar
             [4, 8, 13, 15]  // Set 4
 ```
 
-Going by the source code above, correctSets defines the index positions of the right combinations for each wordset. Below are the challenge solutions for each set. I apply the index patterns for sets 1-4 for each wordSet item and remember that the index numbering starts at 0, not 1. After creating the list of solutions for each set, I click them, complete the round and move onto the next one. 
+Going by the source code above, ```correctSets``` defines the index positions of the right combinations for each wordset. Below are the challenge solutions for each set. I apply the index patterns for sets 1-4 for each ```wordSet``` item and remember that index numbering starts at 0, not 1. After creating the list of solutions for each set, I click them, complete the round and move onto the next one. 
 
 Round 1 Solutions:
 * Tinsel, Garland, Star, Lights
@@ -67,7 +67,7 @@ Round 4 Solutions:
 
 ![Screenshot 2024-12-24 081409](https://github.com/user-attachments/assets/372d78f7-204a-4117-8a26-9e75cb885995)
 
-After completing Round 4, I get the silver badge for this challenge. 
+After completing Round 4, I get the silver trophy for this challenge. 
 
 # Gold Trophy
 
@@ -79,11 +79,11 @@ let score = parseInt(sessionStorage.getItem('score') || '0'); // Initialize scor
         let highScore = 50000;
 ```
 
-I go the my browser's developer tools, and modify the score value. 
+I go the my browser's developer tools to modify the score value. 
 
 ![Screenshot 2024-12-24 082013](https://github.com/user-attachments/assets/bdf1b094-dfd9-4ca3-b64a-34c295a85cd9)
 
-From here, I complete the one row and my score goes above 50000, giving me the gold badge for this challenge. Now it is time to talk to Poinsettia and move onto the next challenge. 
+From here, I complete the one row and my score goes above 50000, giving me the gold trophy for this challenge. Now it is time to talk to Poinsettia and move onto the next challenge. 
 
 ![Screenshot 2024-12-24 082134](https://github.com/user-attachments/assets/fde73201-d7b9-4a92-a5c3-6f1dd354dea7)
 
