@@ -18,6 +18,3 @@ This challenge involves finding pins to successfully access this machine. One of
 I figure out that each of these number sets correlate to the same format of ```page#:word#:character#```. After going through the hint for each of the five number sets, the numbers correlate to ```SANTA```, or ```72682```. After putting in this PIN and hitting enter, I get the silver trophy for this challenge.
 
 ![Screenshot 2024-12-26 072858](https://github.com/user-attachments/assets/0f57ad38-3e3a-4aa4-8087-89a7527c92ee)
-
-Next Challenge:
-* [Curling - Silver and Gold](https://github.com/Rockman-Blue/SANS_HHC_2024/blob/6ca19fe2cff31830b17ea9d187128d241716afc6/Act%201/Curling.md)
