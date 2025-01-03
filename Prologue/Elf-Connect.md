@@ -86,6 +86,3 @@ I go the my browser's developer tools to modify the score value.
 From here, I complete the one row and my score goes above 50000, giving me the gold trophy for this challenge. Now it is time to talk to Poinsettia and move onto the next challenge. 
 
 ![Screenshot 2024-12-24 082134](https://github.com/user-attachments/assets/fde73201-d7b9-4a92-a5c3-6f1dd354dea7)
-
-Next Challenge: 
-* [Elf Minder - Silver](https://github.com/Rockman-Blue/SANS_HHC_2024/blob/6ca19fe2cff31830b17ea9d187128d241716afc6/Prologue/Elf-Minder.md)
