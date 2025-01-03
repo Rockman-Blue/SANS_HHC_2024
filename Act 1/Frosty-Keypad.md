@@ -1,3 +1,5 @@
+# Silver Trophy
+
 ![Screenshot 2024-12-25 131909](https://github.com/user-attachments/assets/2de9ca2b-776c-4e39-9983-2d6ed9c532fe)
 
 After exploring the Act 1 island for a little bit, I talk to Morcel to learn more about the Frosty Keypad challenge. After talking to Morcel, I get three hints, which I read by clicking on the green "i" icon on the left hand side of the GUI. The hints are:
