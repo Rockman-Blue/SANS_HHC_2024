@@ -18,6 +18,3 @@ For brevity's sake I won't show each level solution, but proof that I completed 
 After completing all of the levels, I get awarded the silver trophy for this challenge. This is the last challenge for the prologue section of this event, now it's time for me to move to Act 1. 
 
 ![Screenshot 2024-12-24 092603](https://github.com/user-attachments/assets/f648f06d-0f10-4cb0-ae1e-006643029460)
-
-Next Challenge:
-* [Frosty Keypad - Silver](https://github.com/Rockman-Blue/SANS_HHC_2024/blob/6ca19fe2cff31830b17ea9d187128d241716afc6/Act%201/Frosty-Keypad.md)
