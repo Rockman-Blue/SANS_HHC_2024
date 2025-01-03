@@ -1,3 +1,5 @@
+# Silver Trophy
+
 After clicking on "Go to Act I" in the story section of the game menu, I go left to talk to Bow Ninecandle to learn more about the cURLing challenge. 
 
 ![Screenshot 2024-12-24 101046](https://github.com/user-attachments/assets/3859ef6b-a885-4a26-9931-0e3a668b10b9)
@@ -73,6 +75,8 @@ This command works successfully, and I see the following output to make a new co
 
 This question will require the "--path-as-is" option. This controls a default behavior, where cURL will modify your URL unless you tell it not to. I use this argument/option, and the --insecure option is still needed. This is covered in question 7 above. 
 
+# Gold Trophy
+
 ```curl --insecure --path-as-is https://curlingfun:9090/../../etc/button```
 
 The command works successfully and I get the last question for the gold trophy in this challenge. 
@@ -86,3 +90,6 @@ When I read this question, redirects is the keyword that stuck out to me. I sear
 This last question gives me the gold badge for this challenge. Now I move onto the Frosty Keypad challenge. 
 
 ![Screenshot 2024-12-25 131204](https://github.com/user-attachments/assets/74c15405-4020-4200-8634-4a4b12b6e671)
+
+Next Challenge: 
+* [Hardware Hacking - Silver](https://github.com/Rockman-Blue/SANS_HHC_2024/blob/a8a920e4ff7106041084d52cfadcc38fa654accb/Act%201/Hardware-Hacking.md)
