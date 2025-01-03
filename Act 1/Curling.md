@@ -90,6 +90,3 @@ When I read this question, redirects is the keyword that stuck out to me. I sear
 This last question gives me the gold badge for this challenge. Now I move onto the hardware hacking challenge. 
 
 ![Screenshot 2024-12-25 131204](https://github.com/user-attachments/assets/74c15405-4020-4200-8634-4a4b12b6e671)
-
-Next Challenge: 
-* [Hardware Hacking - Silver](https://github.com/Rockman-Blue/SANS_HHC_2024/blob/6ca19fe2cff31830b17ea9d187128d241716afc6/Act%201/Hardware-Hacking.md)
