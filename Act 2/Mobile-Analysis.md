@@ -25,6 +25,3 @@ Ellie is the missing name for the debug version of the app. I go to my objective
 ![Screenshot 2024-12-28 100635](https://github.com/user-attachments/assets/b3b0ae24-4d96-4fc9-88d0-aee17df9d2b5)
 
 Now it's time for me to talk to Chimney Scissorsticks to start the Drone Path challenge. 
-
-Next Challenge:
-* [Drone Path - Silver](https://github.com/Rockman-Blue/SANS_HHC_2024/blob/6fb96fb9355bc413c0adfffccc7c5be009999ab1/Act%202/Drone-Path.md)
