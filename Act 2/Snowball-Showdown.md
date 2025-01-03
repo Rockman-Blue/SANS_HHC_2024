@@ -1,10 +1,14 @@
+# Bronze Trophy
+
 First, I find and talk to Dusty Giftwrap to get some information and context about the challenge. 
 
 ![Screenshot 2025-01-02 153409](https://github.com/user-attachments/assets/27643e79-b38a-4fac-8eb8-1048ae14338c)
 
-This challenge is a browser based game where I must take down the opposing elves. When Dusty said client side, I thought first to tweak values using my browser's developer console or modifying the URL. But before I tried that, I wanted to see if I could win the game without any modification. After a few tried I win and get told it isn't "hacky" enough.
+This challenge is a browser based game where I must take down the opposing elves. When Dusty said client side, I thought first to tweak values using my browser's developer console or modifying the URL. But before I tried that, I wanted to see if I could win the game without any modification. After a few tries I win and get told it isn't "hacky" enough.
 
 ![Screenshot 2025-01-02 171517](https://github.com/user-attachments/assets/19c624aa-ae04-4e4e-9547-29ef078c1ea6)
+
+# Silver Trophy (Not Complete) 
 
 Due to the message, I start to think about how I can modify client side values to gain an advantage in the game. Two ways of doing this that came to mind is modifying function parameters in the game's code or to tweak values in the URL. 
 
