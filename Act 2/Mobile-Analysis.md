@@ -1,3 +1,5 @@
+# Silver Trophy
+
 I go to the Act 2 island in the event's story menu. From there I get a bunch of objectives added to my menu. To start this challenge, I must talk to Eve Snowshoes for more information.
 
 ![Screenshot 2024-12-28 094534](https://github.com/user-attachments/assets/9a1cdc10-e7af-4c3b-8c62-ce1f72defc2b)
@@ -23,3 +25,6 @@ Ellie is the missing name for the debug version of the app. I go to my objective
 ![Screenshot 2024-12-28 100635](https://github.com/user-attachments/assets/b3b0ae24-4d96-4fc9-88d0-aee17df9d2b5)
 
 Now it's time for me to talk to Chimney Scissorsticks to start the Drone Path challenge. 
+
+Next Challenge:
+* [Drone Path - Silver](https://github.com/Rockman-Blue/SANS_HHC_2024/blob/efdabc09938adc0212e7852bfa5990818678d17e/Act%202/Drone-Path.md)
