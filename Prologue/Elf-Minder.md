@@ -20,4 +20,4 @@ After completing all of the levels, I get awarded the silver trophy for this cha
 ![Screenshot 2024-12-24 092603](https://github.com/user-attachments/assets/f648f06d-0f10-4cb0-ae1e-006643029460)
 
 Next Challenge:
-* [Frosty Keypad - Silver](https://github.com/Rockman-Blue/SANS_HHC_2024/blob/a8a920e4ff7106041084d52cfadcc38fa654accb/Act%201/Frosty-Keypad.md)
+* [Frosty Keypad - Silver](https://github.com/Rockman-Blue/SANS_HHC_2024/blob/6ca19fe2cff31830b17ea9d187128d241716afc6/Act%201/Frosty-Keypad.md)
