@@ -20,4 +20,4 @@ I figure out that each of these number sets correlate to the same format of ```p
 ![Screenshot 2024-12-26 072858](https://github.com/user-attachments/assets/0f57ad38-3e3a-4aa4-8087-89a7527c92ee)
 
 Next Challenge:
-* [Curling - Silver and Gold](https://github.com/Rockman-Blue/SANS_HHC_2024/blob/a8a920e4ff7106041084d52cfadcc38fa654accb/Act%201/Curling.md)
+* [Curling - Silver and Gold](https://github.com/Rockman-Blue/SANS_HHC_2024/blob/6ca19fe2cff31830b17ea9d187128d241716afc6/Act%201/Curling.md)
