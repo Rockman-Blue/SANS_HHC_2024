@@ -1,3 +1,5 @@
+# Silver Trophy
+
 I talk to Jewel to get some of the story context behind this challenge, and Jewel gives me a hint. In addition to the hint that shows up for this challenge that I can access by clicking the green "i" icon in the left pane of the GUI, Jewel says I should talk to Morcel Nougat. 
 
 ![Screenshot 2024-12-26 073230](https://github.com/user-attachments/assets/57e135e6-14dd-4333-8f3d-20070890ed80)
@@ -33,20 +35,23 @@ I look at the manual and it tells me that I can change the voltage on the UART-B
 
 ![Screenshot 2024-12-26 082340](https://github.com/user-attachments/assets/85f62064-a9be-47ad-a921-33bac19e3c23)
 
-I talk to Jewel and Jewel tells me that Santa is missing, and that the only way to track him is to access the Wish List in his chest. I must modify the access_cards database to get entry by granting access to card number 42. Jewel tells me that I must use the slh application which is the key to get into the access database. That slh tool is password protected, so I have to find it before granting access to card number 42. 
+I talk to Jewel and Jewel tells me that Santa is missing, and that the only way to track him is to access the Wish List in his chest. I must modify the ```access_cards database``` to get entry by granting access to card number 42. Jewel tells me that I must use the slh application which is the key to get into the access database. That slh tool is password protected, so I have to find it before granting access to card number 42. 
 
 I get two hints for this part of the challenge. One of them mentions that passwords can get added to log files and other easy to access locations, and that in these cases you can step back in history and identify the password. The second hint mentions there being a HMAC generator included in [CyberChef.](https://gchq.github.io/CyberChef/#recipe=HMAC(%7B'option':'UTF8','string':''%7D,'SHA256'))
 
-I navigate to the terminal, start the device, and type the history command to see previously typed commands. That stuck out to me as the best option since the first hint above italicized the word history in the game hint menu. 
+I navigate to the terminal, start the device, and type the ```history``` command to see previously typed commands. That stuck out to me as the best option since the first hint above italicized the word history in the game hint menu. 
 
 ![Screenshot 2024-12-26 083350](https://github.com/user-attachments/assets/cbd05840-1b62-4299-9512-1821462fefd6)
 
-I notice that the command at line 11 gives me a huge hint on how to solve this challenge. First, it tells me the passcode I need to be able to change the access to card number 42. Next, I know I need to use the --set-access argument to change the access. I look at the help menu with the command explanations at the top of the terminal to help form my command. 
+I notice that the command at line 11 gives me a huge hint on how to solve this challenge. First, it tells me the passcode I need to be able to change the access to card number 42. Next, I know I need to use the ```--set-access argument``` to change the access. I look at the help menu with the command explanations at the top of the terminal to help form my command. 
 
 ![Screenshot 2024-12-26 083829](https://github.com/user-attachments/assets/0eb8bc2f-098f-45ee-8bc7-59c14119c086)
 
-After looking at these options, I craft the command needed to get the silver trophy for this challenge. The --passcode argument is needed since I know that the slh tool is password protected. With the --set-access argument, it's either 0 for no access, or 1 for full access. The --id argument is for the ID of the card, which I know is 42 from talking to Jewel. 
+After looking at these options, I craft the command needed to get the silver trophy for this challenge. The ```--passcode``` argument is needed since I know that the slh tool is password protected. With the ```--set-access``` argument, it's either 0 for no access, or 1 for full access. The ```--id``` argument is for the ID of the card, which I know is 42 from talking to Jewel. 
 
 ![Screenshot 2024-12-26 083945](https://github.com/user-attachments/assets/663a7e7e-5795-4906-9fff-430998b3933b)
 
 It's now time for me to move onto Act 2.
+
+Next Challenge:
+* [Mobile Analysis - Silver](https://github.com/Rockman-Blue/SANS_HHC_2024/blob/a8a920e4ff7106041084d52cfadcc38fa654accb/Act%202/Mobile-Analysis.md)
