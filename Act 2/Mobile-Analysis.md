@@ -8,13 +8,13 @@ I go to the Act 2 island in the event's story menu. From there I get a bunch of 
 
 Here's the challenge. Eve built an Android app to test a modern solution to Santa's naughty and nice list. There's two versions of this app, a debug and release version. Eve accidentally left out one child's name on each version, but Eve can't remember who.
 
-My goal is to download both versions of the app as .apk files and look for the missing child's name on both versions. Eve suggests starting with the debug version first to find out which child's name isn't shown in the list in the app. After that I can move onto doing the same for the release version. 
+For the silver trophy, my goal is to download the debug version of the app and look for the missing child's name. Eve suggests starting with the debug version first to find out which child's name isn't shown in the list in the app. The gold trophy for this challenge involves doing the same for the release version of the app. 
 
 The hint suggests using either of these two tools:
 * [apktool](https://github.com/iBotPeaches/Apktool/releases)
 * [jadx](https://github.com/skylot/jadx)
 
-I download the jadx tool and open the SantaSwipe.apk file (debug version of app). There are a lot of files to comb through. After spending some time looking through the various files and folders, I got to Discord to get a hint. There, someone tells me to look at the com.northpole.santaswipe.MainActivity file under the com/northpole.santaswipe directory. I look around in the file and find the following code. 
+I download the jadx tool and open the SantaSwipe.apk file (debug version of app). There are a lot of files to comb through. After spending some time looking through the various files and folders, I go to Discord to get a hint. There, someone tells me to look at the ```com/northpole.santaswipe``` directory. After looking around there, I find the     ```com.northpole.santaswipe.MainActivity``` file and find the following code. 
 
 ```java
 Cursor cursor = sQLiteDatabase.rawQuery("SELECT Item FROM NormalList WHERE Item NOT LIKE '%Ellie%'", null);
