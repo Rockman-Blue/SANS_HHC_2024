@@ -8,7 +8,7 @@ As of the time of submission, I have completed the following challenges. I was l
 
 ![Screenshot 2025-01-02 184738](https://github.com/user-attachments/assets/edff5152-b952-481d-9313-35a4b4a25d70)
 
-Below is a list to the different challenge write-ups broken down by phase. Thanks again to SANS and Counter Hack for creating and hosting such a great learning experience!
+Below is a list to the different challenge write-ups broken down by phase. Thanks again to SANS and Counter Hack for creating and hosting such a great learning experience! It was a great time, and I appreciate earning a spot in the Honorable Mentions along with the other fantastic folks who entered the write-up contest. 
 
 # Challenge Write-ups 
 
