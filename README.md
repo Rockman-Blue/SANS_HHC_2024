@@ -10,6 +10,8 @@ As of the time of submission, I have completed the following challenges. I was l
 
 Below is a list to the different challenge write-ups broken down by phase. Thanks again to SANS and Counter Hack for creating and hosting such a great learning experience! It was a great time, and I appreciate earning a spot in the Honorable Mentions along with the other fantastic folks who entered the write-up contest. 
 
+* https://www.sans.org/cyber-ranges/holiday-hack-challenge/winners-and-answers
+
 # Challenge Write-ups 
 
 ## Prologue 
